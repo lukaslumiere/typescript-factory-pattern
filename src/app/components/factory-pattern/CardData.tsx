@@ -7,7 +7,7 @@ export type CardItem = {
   id: number;
   icon: React.JSX.Element;
   title: string;
-  description: string;
+  description: string; cecekizAAAA
 };
 
 const createCardItem = (
