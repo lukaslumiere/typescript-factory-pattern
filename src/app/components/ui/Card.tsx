@@ -8,13 +8,13 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ icon, title, description }) => {
   return (
-    <div>
+    <article>
       <header>
         <div>{icon}</div>
         <h2>{title}</h2>
       </header>
       <main>{description}</main>
-    </div>
+    </article>
   );
 };
 
